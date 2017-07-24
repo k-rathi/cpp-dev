@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B0C528A61F185FE500765CF3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0C528A51F185FE500765CF3 /* main.cpp */; };
+		B0C528AF1F18607A00765CF3 /* single_linked_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0C528AD1F18607A00765CF3 /* single_linked_list.cpp */; };
+		B0C528B21F1860D800765CF3 /* node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0C528B01F1860D800765CF3 /* node.cpp */; };
+		B0C528B51F18679000765CF3 /* doubly_linked_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0C528B31F18679000765CF3 /* doubly_linked_list.cpp */; };
+		B0C528B81F186ECC00765CF3 /* stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0C528B61F186ECC00765CF3 /* stack.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,15 @@
 /* Begin PBXFileReference section */
 		B0C528A21F185FE500765CF3 /* c_plus_plus_learning */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = c_plus_plus_learning; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C528A51F185FE500765CF3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B0C528AC1F18601600765CF3 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		B0C528AD1F18607A00765CF3 /* single_linked_list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = single_linked_list.cpp; sourceTree = "<group>"; };
+		B0C528AE1F18607A00765CF3 /* single_linked_list.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = single_linked_list.hpp; sourceTree = "<group>"; };
+		B0C528B01F1860D800765CF3 /* node.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = node.cpp; sourceTree = "<group>"; };
+		B0C528B11F1860D800765CF3 /* node.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = node.hpp; sourceTree = "<group>"; };
+		B0C528B31F18679000765CF3 /* doubly_linked_list.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = doubly_linked_list.cpp; sourceTree = "<group>"; };
+		B0C528B41F18679000765CF3 /* doubly_linked_list.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = doubly_linked_list.hpp; sourceTree = "<group>"; };
+		B0C528B61F186ECC00765CF3 /* stack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stack.cpp; sourceTree = "<group>"; };
+		B0C528B71F186ECC00765CF3 /* stack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stack.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,15 @@
 			isa = PBXGroup;
 			children = (
 				B0C528A51F185FE500765CF3 /* main.cpp */,
+				B0C528AC1F18601600765CF3 /* main.h */,
+				B0C528AD1F18607A00765CF3 /* single_linked_list.cpp */,
+				B0C528AE1F18607A00765CF3 /* single_linked_list.hpp */,
+				B0C528B01F1860D800765CF3 /* node.cpp */,
+				B0C528B11F1860D800765CF3 /* node.hpp */,
+				B0C528B31F18679000765CF3 /* doubly_linked_list.cpp */,
+				B0C528B41F18679000765CF3 /* doubly_linked_list.hpp */,
+				B0C528B61F186ECC00765CF3 /* stack.cpp */,
+				B0C528B71F186ECC00765CF3 /* stack.hpp */,
 			);
 			path = c_plus_plus_learning;
 			sourceTree = "<group>";
@@ -119,7 +141,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0C528AF1F18607A00765CF3 /* single_linked_list.cpp in Sources */,
 				B0C528A61F185FE500765CF3 /* main.cpp in Sources */,
+				B0C528B21F1860D800765CF3 /* node.cpp in Sources */,
+				B0C528B81F186ECC00765CF3 /* stack.cpp in Sources */,
+				B0C528B51F18679000765CF3 /* doubly_linked_list.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +274,7 @@
 				B0C528AB1F185FE500765CF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
